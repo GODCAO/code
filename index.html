@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>调查问卷</title>
+</head>
+<body>
+    <h1>调查问卷</h1>
+    <form method="post">
+        <!-- 问题 1 -->
+        <h2>1. 青年人上哪类大学好（可单选或多选）</h2>
+        <label><input type="checkbox" name="q1" value="1.1"> 985大学</label>
+        <label><input type="checkbox" name="q1" value="1.2"> 211大学</label>
+        <label><input type="checkbox" name="q1" value="1.3"> 一本大学</label>
+        <label><input type="checkbox" name="q1" value="1.4"> 二本大学</label>
+        <label><input type="checkbox" name="q1" value="1.2"> 专科学门技术</label>
+
+        <!-- 问题 2 -->
+        <h2>2. 农村高中生读哪类大学好（可单选或多选）</h2>
+        <label><input type="checkbox" name="q2" value="2.1"> 农林类</label>
+        <label><input type="checkbox" name="q2" value="2.2"> 畜牧类</label>
+        <label><input type="checkbox" name="q2" value="2.3"> 金融类</label>
+        <label><input type="checkbox" name="q2" value="2.4"> 工科类</label>
+        <label><input type="checkbox" name="q2" value="2.5"> 理科类</label>
+        <label><input type="checkbox" name="q2" value="2.6"> 哲学类</label>
+        <label><input type="checkbox" name="q2" value="2.7"> 社科类</label>
+        <label><input type="checkbox" name="q2" value="2.8"> 民族类</label>
+
+        <!-- 问题 3 -->
+        <h2>3. 上大学你喜欢选择哪一类（可多选）</h2>
+        <label><input type="checkbox" name="q3" value="3.1"> 容易学的</label>
+        <label><input type="checkbox" name="q3" value="3.2"> 难学的</label>
+        <label><input type="checkbox" name="q3" value="3.3"> 感兴趣的</label>
+        <label><input type="checkbox" name="q3" value="3.4"> 能赚钱的</label>
+        <label><input type="checkbox" name="q3" value="3.5"> 国家有重大需求的</label>
+
+        <!-- 问题 4 -->
+        <h2>4. 上大学你以为哪个城市更适合你（单选）</h2>
+        <label><input type="radio" name="q4" value="4.1"> 北京</label>
+        <label><input type="radio" name="q4" value="4.2"> 上海</label>
+        <label><input type="radio" name="q4" value="4.3"> 南京</label>
+        <label><input type="radio" name="q4" value="4.4"> 广州</label>
+        <label><input type="radio" name="q4" value="4.5"> 其他城市</label>
+        <textarea name="q4_reason" placeholder="选择其他城市请说明理由"></textarea>
+
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>

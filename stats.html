@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计结果</title>
+</head>
+<body>
+    <h1>统计结果</h1>
+    <h2>问题 1</h2>
+    <img style="height: 400px" src="data:image/png;base64,{{ q1_image_base64 }}" alt="问题 1 统计图表">
+
+    <h2>问题 2</h2>
+    <img style="height: 400px" src="data:image/png;base64,{{ q2_image_base64 }}" alt="问题 2 统计图表">
+
+    <h2>问题 3</h2>
+    <img style="height: 400px" src="data:image/png;base64,{{ q3_image_base64 }}" alt="问题 3 统计图表">
+
+    <h2>问题 4</h2>
+    <img style="height: 400px" src="data:image/png;base64,{{ q4_image_base64 }}" alt="问题 4 统计图表">
+
+    <a href="{{ url_for('index') }}">返回首页</a>
+</body>
+</html>
